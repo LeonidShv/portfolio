@@ -1,0 +1,149 @@
+.about {
+    width: calc(100% - 350px);
+    padding: 80px 100px;
+}
+
+.about__main-title {
+    letter-spacing: 5px;
+    font-size: 70px;
+    font-weight: 800;
+    color: #100f3a;
+    margin-top: 5px;
+}
+
+.about__main-sup {
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #7a798c;
+}
+
+.about__text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #838293;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.about__skils {
+    margin-top: 30px;
+}
+
+.about__stats {
+    margin-top: 100px;
+}
+
+.about__btn {
+    transition: color 0.3s, background 0.3s;
+    display: block;
+    width: fit-content;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    color: #100f3a;
+    font-weight: 700;
+    border: 2px solid rgb(33,33,79);;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.about__btn:hover {
+    background: rgb(33,33,79);
+    color: #fff;
+}
+
+.about__sup-title {
+    margin: 50px 0 10px;
+}
+
+.about__email {
+    text-decoration: none;
+    color: #838293;
+    font-size: 18px;
+}
+
+.about__span {
+    font-weight: bold;
+}
+
+@media (max-width: 1500px) {
+    .about {
+        padding: 80px 80px 80px 30px;
+    }
+
+    .about__main-sup {
+        font-size: 23px;
+    }
+
+    .about__main-title {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .about {
+        width: calc(100% - 300px);
+        padding: 80px 30px 80px 0px;
+    }
+
+    .about__main-title {
+        font-size: 50px;
+        letter-spacing: 4px;
+    }
+
+    .about__main-sup {
+        letter-spacing: 4px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about {
+        width: 100%;
+        padding: 80px 0;
+    }
+
+    .about__main-title {
+        font-size: 48px;
+    }
+
+    .about__text {
+        padding: 0 30px;
+    }
+
+    .about__btn {
+        margin: 30px;
+    }
+    .about__text,
+    .about__main-sup,
+    .about__main-title,
+    .about__sup-title,
+    .about__sub-title {
+        padding: 0 30px;
+    }
+
+    .about__skils {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about__main-title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about__main-sup {
+        font-size: 18px;
+    }
+
+    .about__main-title {
+        font-size: 38px;
+    }
+}

@@ -1,0 +1,235 @@
+.portfolio__card {
+    display: flex;
+    flex-wrap: wrap;
+    background: #0f0f3a;
+}
+
+.portfolio__card:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.portfolio__card:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card__info {
+    transition: background 0.3s;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.card__sup-title {
+    margin-top: 14px;
+}
+
+.portfolio__card:nth-child(odd) .card__info {
+    padding: 10px 37px 10px 15px;
+}
+
+.portfolio__card:nth-child(even) .card__info {
+    padding: 10px 15px 10px 37px;
+}
+
+.card__img {
+    position: relative;
+    display: block;
+    width: 50%;
+    padding: 2px;
+}
+
+.card__text {
+    margin-bottom: 15px;
+    color: #8f8ea0;
+    line-height: 24px;
+}
+
+.card__link {
+    display: block;
+    width: fit-content;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    color: #f3c623;
+    font-weight: 700;
+    border: 1px solid #f3c623;
+    padding: 2px 8px;
+    margin-bottom: 13px;
+}
+
+.card__sub-title {
+    margin: 15px 0;
+}
+
+.portfolio__card:nth-child(odd) .card__img {
+    order: 2;
+}
+
+.portfolio__card:nth-child(even) .card__info {
+    order: 1;
+}
+
+.portfolio__card:nth-child(even) .card__info {
+    text-align: left;
+}
+
+.portfolio__card:nth-child(odd) .card__info {
+    text-align: right;
+}
+
+.portfolio__card:nth-child(odd) .card__link {
+    margin-left: auto;
+}
+
+.portfolio__card:nth-child(odd) .card__img::after {
+    background: url(../assets/images/border.png) no-repeat calc(50% - 6px) top;
+    left: -7px;
+    top: 2px;
+}
+
+.portfolio__card:nth-child(even) .card__img::after {
+    background: url(../assets/images/border.png) no-repeat calc(50% - 6px) top;
+    transform: rotate(180deg);
+    right: -7px;
+    top: 0;
+}
+
+.portfolio__card:hover .card__img::after {
+    opacity: 1;
+}
+
+.portfolio__card:hover .card__text {
+    color: #fff;
+}
+
+.portfolio__card:hover {
+    background: #2a2a4e;
+} 
+
+.portfolio__card:nth-child(even) .card__link:hover {
+    background: linear-gradient(to right, rgba(243,198,35,1) 0%, rgba(33,33,79,1) 86%, rgba(33,33,79,1) 100%);
+    color: #fff;
+}
+
+.portfolio__card:nth-child(odd) .card__link:hover {
+    background: linear-gradient(to right, rgba(33,33,79,1) 0%, rgba(33,33,79,1) 14%, rgba(243,198,35,1) 100%);
+    color: #fff;
+}
+
+.card__img::after {
+    transition: opacity 0.3s;
+    content: "";
+    position: absolute;
+    display: block;
+    opacity: 0;
+    height: calc(100% - 2px);
+    width: 19px;
+}
+
+@media (max-width: 1200px) {
+    .card__text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card__img::after {
+        display: none;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .portfolio__card .card__img {
+        order: 1 !important;
+    }
+    
+    .portfolio__card .card__info {
+        order: 2 !important;
+    }
+
+    .portfolio__card {
+        flex-direction: column;
+        margin-bottom: 41px;
+        border-radius: 20px;
+    }
+
+    .portfolio__card:first-child {
+        border-radius: 20px;
+    }
+
+    .portfolio__card:last-child {
+        border-radius: 20px;
+    }
+
+    .card__img {
+        width: 100%;
+    }
+
+    .portfolio {
+        margin: 0 30px;
+    }
+
+    .card__info {
+        width: 100%;
+        padding: 30px 60px !important;
+    }
+
+    .card__text,
+    .card__sub-title,
+    .card__sup-title {
+        text-align: left;
+    }
+
+    .card__link {
+        margin-left: 0 !important;
+    }
+
+    .card__text {
+        width: 80%;
+    }
+
+    .card__inner-img {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+}
+
+@media (max-width: 590px) {
+    .card__info {
+        width: 100%;
+        padding: 30px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolio {
+        margin: 0;
+    }
+}
+
+@media (max-width: 415px) {
+    .card__info {
+        width: 100%;
+        padding: 24px !important;
+    }
+
+    .card__sup-title {
+        font-size: 12px !important;
+    }
+
+    .card__sub-title {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .card__text {
+        width: 100%;
+    }
+}

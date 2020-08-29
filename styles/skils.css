@@ -1,0 +1,203 @@
+.skils {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skils__item {
+    position: relative;
+    width: 48%;
+}
+
+.skils__rate {
+    background: #e4dddd;
+    height: 6px;
+    border-radius: 1% / 50%;
+    position: relative;
+}
+
+.skils__rate::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 6px;
+    border-radius: 1% / 50%;
+}
+
+.skils__rate-1::before {
+    width: 90%;
+}
+
+.skils__rate-2::before {
+    width: 85%;
+}
+
+.skils__rate-3::before {
+    width: 60%;
+}
+
+.skils__rate-4::before {
+    width: 65%;
+}
+
+.skils__rate-5::before {
+    width: 85%;
+}
+
+.skils__rate-6::before {
+    width: 60%;
+}
+
+.skils__rate-7::before {
+    width: 40%;
+}
+
+.skils__rate-8::before {
+    width: 65%;
+}
+
+.skils__rate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.skils__rate-1::after {
+    left: 89%;
+}
+
+.skils__rate-2::after {
+    left: 84%;
+}
+
+.skils__rate-3::after {
+    left: 59%;
+}
+
+.skils__rate-4::after {
+    left: 64%;
+}
+
+.skils__rate-5::after {
+    left: 84%;
+}
+
+.skils__rate-6::after {
+    left: 59%;
+}
+
+.skils__rate-7::after {
+    left: 39%;
+}
+
+.skils__rate-8::after {
+    left: 64%;
+}
+
+.skils__numb {
+    position: absolute;
+    font-size: 15px;
+    bottom: 12px;
+    z-index: 1;
+    left: 82%;
+}
+
+.skils__text {
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #838293;
+}
+
+.skils__rate-1::before,
+.skils__rate-1::after {
+    background: #6f6cc3;
+}
+
+.skils__rate-2::before,
+.skils__rate-2::after {
+    background: #ec5554;
+}
+
+.skils__rate-3::before,
+.skils__rate-3::after {
+    background: #f3c623;
+}
+
+.skils__rate-4::before,
+.skils__rate-4::after {
+    background: #3333a5;
+}
+
+.skils__rate-5::before,
+.skils__rate-5::after {
+    background: #32a499;
+}
+
+.skils__rate-6::before,
+.skils__rate-6::after {
+    background: #a84db8;
+}
+
+.skils__rate-7::before,
+.skils__rate-7::after {
+    background: #ec5554;
+}
+
+.skils__rate-8::before,
+.skils__rate-8::after {
+    background: #f3c623;
+}
+
+.skils__numb-1 {
+    left: 82%;
+    color: #6f6cc3;
+}
+
+.skils__numb-2 {
+    left: 77%;
+    color: #ec5554;
+}
+
+.skils__numb-3 {
+    left: 52%;
+    color: #f3c623;
+}
+
+.skils__numb-4 {
+    left: 57%;
+    color: #3333a5;
+}
+
+.skils__numb-5 {
+    left: 77%;
+    color: #32a499;
+}
+
+.skils__numb-6 {
+    left: 52%;
+    color: #a84db8;
+}
+
+.skils__numb-7 {
+    left: 32%;
+    color: #ec5554;
+}
+
+.skils__numb-8 {
+    left: 57%;
+    color: #f3c623;
+}
+
+@media (max-width: 680px) {
+    .skils__item {
+        position: relative;
+        margin-bottom: 8px;
+        width: 100%;
+    }
+}
