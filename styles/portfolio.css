@@ -22,6 +22,11 @@
     position: relative;
 }
 
+.card__inner-img {
+    max-height: 272px;
+    object-fit: cover;
+}
+
 .card__sup-title {
     margin-top: 14px;
 }
