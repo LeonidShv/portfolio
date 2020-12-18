@@ -33,7 +33,7 @@
 }
 
 .skils__rate-3::before {
-    width: 60%;
+    width: 80%;
 }
 
 .skils__rate-4::before {
@@ -76,7 +76,7 @@
 }
 
 .skils__rate-3::after {
-    left: 59%;
+    left: 79%;
 }
 
 .skils__rate-4::after {
@@ -165,7 +165,7 @@
 }
 
 .skils__numb-3 {
-    left: 52%;
+    left: 71%;
     color: #f3c623;
 }
 
