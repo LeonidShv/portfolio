@@ -33,7 +33,7 @@
 }
 
 .skils__rate-3::before {
-    width: 80%;
+    width: 85%;
 }
 
 .skils__rate-4::before {
@@ -41,7 +41,7 @@
 }
 
 .skils__rate-5::before {
-    width: 85%;
+    width: 75%;
 }
 
 .skils__rate-6::before {
@@ -49,11 +49,11 @@
 }
 
 .skils__rate-7::before {
-    width: 40%;
+    width: 85%;
 }
 
 .skils__rate-8::before {
-    width: 65%;
+    width: 80%;
 }
 
 .skils__rate::after {
@@ -76,7 +76,7 @@
 }
 
 .skils__rate-3::after {
-    left: 79%;
+    left: 83%;
 }
 
 .skils__rate-4::after {
@@ -84,7 +84,7 @@
 }
 
 .skils__rate-5::after {
-    left: 84%;
+    left: 73%;
 }
 
 .skils__rate-6::after {
@@ -92,11 +92,11 @@
 }
 
 .skils__rate-7::after {
-    left: 39%;
+    left: 83%;
 }
 
 .skils__rate-8::after {
-    left: 64%;
+    left: 78%;
 }
 
 .skils__numb {
@@ -165,7 +165,7 @@
 }
 
 .skils__numb-3 {
-    left: 71%;
+    left: 76%;
     color: #f3c623;
 }
 
@@ -175,7 +175,7 @@
 }
 
 .skils__numb-5 {
-    left: 77%;
+    left: 67%;
     color: #32a499;
 }
 
@@ -185,12 +185,12 @@
 }
 
 .skils__numb-7 {
-    left: 32%;
+    left: 76%;
     color: #ec5554;
 }
 
 .skils__numb-8 {
-    left: 57%;
+    left: 75%;
     color: #f3c623;
 }
 
