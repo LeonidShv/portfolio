@@ -119,7 +119,7 @@
 
 @media (max-width: 2000px) {
     .general__img {
-        height: 240px;
+        max-height: 300px;
         width: 100%;
         object-fit: cover;
         object-position: top;
