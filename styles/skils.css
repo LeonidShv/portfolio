@@ -111,22 +111,22 @@
     margin-top: 10px;
     line-height: 30px;
     font-size: 15px;
-    color: #838293;
+    color: #4D4D5B;
 }
 
 .skils__rate-1::before,
 .skils__rate-1::after {
-    background: #6f6cc3;
+    background: #3333a5;
 }
 
 .skils__rate-2::before,
 .skils__rate-2::after {
-    background: #ec5554;
+    background: #3333a5;
 }
 
 .skils__rate-3::before,
 .skils__rate-3::after {
-    background: #f3c623;
+    background: #3333a5;
 }
 
 .skils__rate-4::before,
@@ -136,37 +136,37 @@
 
 .skils__rate-5::before,
 .skils__rate-5::after {
-    background: #32a499;
+    background: #3333a5;
 }
 
 .skils__rate-6::before,
 .skils__rate-6::after {
-    background: #a84db8;
+    background: #3333a5;
 }
 
 .skils__rate-7::before,
 .skils__rate-7::after {
-    background: #ec5554;
+    background: #3333a5;
 }
 
 .skils__rate-8::before,
 .skils__rate-8::after {
-    background: #f3c623;
+    background: #3333a5;
 }
 
 .skils__numb-1 {
     left: 82%;
-    color: #6f6cc3;
+    color: #3333a5;
 }
 
 .skils__numb-2 {
     left: 77%;
-    color: #ec5554;
+    color: #3333a5;
 }
 
 .skils__numb-3 {
     left: 76%;
-    color: #f3c623;
+    color: #3333a5;
 }
 
 .skils__numb-4 {
@@ -176,22 +176,23 @@
 
 .skils__numb-5 {
     left: 67%;
-    color: #32a499;
+    /* color: #226D64; */
+    color: #3333a5;
 }
 
 .skils__numb-6 {
     left: 52%;
-    color: #a84db8;
+    color: #3333a5;
 }
 
 .skils__numb-7 {
     left: 76%;
-    color: #ec5554;
+    color: #3333a5;
 }
 
 .skils__numb-8 {
     left: 75%;
-    color: #f3c623;
+    color: #3333a5;
 }
 
 @media (max-width: 680px) {

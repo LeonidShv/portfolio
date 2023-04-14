@@ -8,7 +8,7 @@
     left: 50%;
     transform: translateX(-50%);
     background: #0f0f3a;
-    padding: 0 100px 30px;
+    padding: 30px 100px;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
 }
@@ -20,6 +20,13 @@
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+.footer__text {
+    color: #9F9FAD;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
 }
 
 @media (min-width: 1800px) {
@@ -74,5 +81,4 @@
     .footer__text {
         padding: 0 15px;
     }
-
 }
